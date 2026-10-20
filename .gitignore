@@ -1,0 +1,19 @@
+# 本 skill 只用 Python 标准库 + 宿主提供的资料库 skill，不自建环境。
+# 下列规则是防御性的：万一将来出现本地环境或缓存，不要把它们提交上去。
+__pycache__/
+*.py[cod]
+.venv*/
+venv*/
+envs/
+.conda/
+
+# 运行产物：工作目录里全是采集快照、账本与日志，属于本地数据
+bili_org_work/
+*_workdir/
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
